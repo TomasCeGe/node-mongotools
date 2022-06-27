@@ -1,7 +1,7 @@
 {
   "name": "node-mongotools",
   "version": "2.0.0",
-  "description": "node-mongotools: a mongotools wrapper for nodejs. Freely inspired from github.com/amulyakashyap09/mbr",
+  "description": "node-mongotools: a fork from https://github.com/boly38/node-mongotools for use in docker with absolue paths",
   "main": "./lib/mt.js",
   "scripts": {
     "preinstall": "npx force-resolutions",
@@ -9,14 +9,14 @@
     "wip": "echo test&& mocha --exit --unhandled-rejections=strict tests/mongo-wrapper-unit.test.js",
     "ci-test": "echo ci-test&& nyc --reporter text --reporter cobertura --reporter html --reporter=lcov --lines 66 mocha --exit --unhandled-rejections=strict tests/*.test.js --timeout 50000"
   },
-  "author": "Boly38 <boly38@gmail.com>",
+  "author": "Tomás <tomas@cege.es>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/boly38/node-mongotools.git"
+    "url": "https://github.com/TomasCeGe/node-mongotools"
   },
   "bugs": {
-    "url": "https://github.com/boly38/node-mongotools/issues"
+    "url": "https://github.com/TomasCeGe/node-mongotools/issues"
   },
   "keywords": [
     "mongo",
